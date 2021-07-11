@@ -70,14 +70,14 @@ else {
    }	}
 
    //Function to create password based on users choice
-function processPasswordGenerator(length, lower, upper, number, special){
+function processPasswordGenerator(length, lower, upper, numeric, symbol){
 	let tempPass ="";
 	      for (let counter = 1; counter<=length; counter++)
 	      {
 		      tempPass += lower ?    getRandomLower():"";
 		      tempPass += upper?     getRandomUpper():""; 
-		      tempPass += number ?   getRandomNumber():"";
-		      tempPass += special ?  getRandomSymbol():"";
+		      tempPass += numeric ?   getRandomNumber():"";
+		      tempPass += symbol ?    getRandomSymbol():"";
 	      }
 
 	      return tempPass 
