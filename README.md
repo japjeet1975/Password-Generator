@@ -10,6 +10,9 @@
 
  WEBSITE URL
 
- 
+https://japjeet1975.github.io/assignment3/
+
  GIT HUB URL
+
+https://github.com/japjeet1975/assignment3
 
