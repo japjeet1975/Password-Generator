@@ -19,7 +19,7 @@ const upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 const numberChar = "0123456789";
 
-const specialChar = "~!@#$%^&*()_+=-{}[]\|/?;";
+const specialChar = "@#$%^&*()_+[]<>?{}-=/";
 
 // Declaring functions
 
@@ -32,7 +32,7 @@ function getRandomUpper (){
 function getRandomNumber (){
 	return numberChar.charAt(Math.ceil(Math.random()* numberChar.length));
 }
-function getRandonSymbol (){
+function getRandomSymbol (){
 	return specialChar.charAt(Math.ceil(Math.random()* specialChar.length));
 }
 
